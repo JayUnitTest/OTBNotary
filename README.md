@@ -1,6 +1,6 @@
 # *OTB NOTARY*
 
-![OTB Logo](assets/OTB%20Logo.png)
+![OTB Logo](https://github.com/JayUnitTest/OTBNotary/blob/main/app/assets/OTB%20Logo.png)
 
 
 *Decentralized Notary application running on the Ethereum blockchain* 
