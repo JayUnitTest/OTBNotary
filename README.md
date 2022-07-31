@@ -33,11 +33,11 @@ crypto and blockchain world*
 
 ## Demo
 
-*Grab a simple block of code that makes use of your project/tool and paste it here.*
+
 
 ## Team
 
-* *p2577997, De Montfort University
+*p2577997, De Montfort University
 
 ## Errors and bugs
 
