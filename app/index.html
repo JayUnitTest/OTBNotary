@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="app/styles.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <script type="text/javascript" src="https://unpkg.com/jquery@3.5.1/dist/jquery.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/web3@1.2.7/dist/web3.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <title>OTB NOTARY</title>
+</head>
+
+<body>
+    <div class="Title">
+        <h1>OTB NOTARY</h1>
+        <div class="container">
+            <div class="card">
+                <h5 class="card-header">Upload a document</h5>
+                <div class="card-body">
+                    <p class="card-text">Begin the hashing process by uploading a document or search a hash!</p>
+                    <div class="input-group mb-3">
+                        <div class="custom-file">
+                            <input type="file" class="custom-file-input" id="file-input">
+                            <label class="custom-file-label" for="file-input">Choose document</label>
+                        </div>
+                    </div>
+                    <p>Document hash:&nbsp;<span id="hash"></span></p>
+                    <div class="container text-right">
+                        <button type="button" class="btn btn-primary" id="submit-button" disabled>Send</button>
+                        <button type="button" class="btn btn-primary" id="search-button" disabled>Search</button>
+                        <div class="spinner-border hidden" role="status" id="loader">
+                            <span class="sr-only">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-success hidden" role="alert" id="success-alert">
+                Document commited to the blockchain. Date of submission:&nbsp;<span id="blocknumber"></span>
+            </div>
+            <div class="alert alert-success hidden" role="alert" id="submit-alert">
+                Successfully commited document.
+            </div>
+            <div class="alert alert-warning hidden" role="alert" id="existing-alert">
+                Only one instance of a documents hash may exist at any time.
+            </div>
+            <div class="alert alert-primary hidden" role="alert" id="notfound-alert">
+                A document with this hash does not exist...
+            </div>
+            <div class="alert alert-danger hidden" role="alert" id="error-alert">
+                error with the contract...
+            </div>
+            <div class="alert alert-danger hidden" role="alert" id="metamask-alert">
+                You must have metamask installed in order to use this application.
+            </div>
+        </div>
+        <footer>
+            <div class="siteFooterBar">
+                <div class="content">
+                    <img src="assets/OTB Logo.png">
+                    <div class="foot">Made with love- p2577997. 2022</div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

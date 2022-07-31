@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+body {
+    background-color: rgb(104, 103, 172);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.Title {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.container {
+    color: rgb(255, 188, 209);
+}
+
+.card-header {
+    background-color: rgb(196, 144, 228);
+}
+
+.card-body {
+    background-color: rgb(196, 144, 228);
+}
+
+.foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(196, 144, 228);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.btn btn-primary:hover {
+    cursor: pointer;
+}
+
+.content img {
+    max-width: 100%;
+    width: 130px;
+    height: auto;
+}
