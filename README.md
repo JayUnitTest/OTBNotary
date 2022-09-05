@@ -2,6 +2,8 @@
 
 ![OTB Logo](https://github.com/JayUnitTest/OTBNotary/blob/main/app/assets/OTB%20Logo.png)
 
+===needs updating!======
+
 
 *Decentralized Notary application running on the Ethereum blockchain* 
 
