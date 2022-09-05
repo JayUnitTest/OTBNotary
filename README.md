@@ -42,7 +42,7 @@ crypto and blockchain world*
 
 ## Team
 
-* p2577997, De Montfort University
+* De Montfort University
 
 ## Errors and bugs
 
